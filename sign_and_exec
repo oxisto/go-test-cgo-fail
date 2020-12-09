@@ -1,0 +1,4 @@
+#!/bin/bash
+codesign -v -v $1
+#codesign -s - --entitlements /Users/oxisto/Downloads/task-test/entitlements.plist $1
+exec $@
